@@ -41,7 +41,7 @@ const genStatus = (id, label, cash = false) => blit({id, parent: statusE, style:
 const cashE = genStatus('cash', 'Cash', true);
 const rollsE = genStatus('rolls', 'Rolls');
 const tunaCansE = genStatus('tunaCans', 'Tuna Cans');
-const emptyCansE = genStatus('emptyCans', 'Empty Cans');
+const emptyCansE = genStatus('emptyCans', 'Empty Cans (Score)');
 const barrelsE = genStatus('barrels', 'Barrels');
 
 const inventory = {
